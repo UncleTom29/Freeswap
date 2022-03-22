@@ -1,0 +1,32 @@
+{
+  "name": "freeswap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomiwa Adeyemi",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.6.1",
+    "hardhat": "^2.9.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.6.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "hardhat-tracer": "^1.0.0-alpha.6"
+  }
+}
